@@ -1,0 +1,797 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: fontbg;
+    src: url(../font/Aleo/Aleo-Regular.ttf);
+}
+
+@font-face {
+    font-family: fontsm;
+    src: url(../font/Mukta/Mukta-Regular.ttf);
+}
+
+/*HEADER STAER*/
+
+/*NEV CSS STRT*/
+#section1 {
+    margin-bottom: 1130px;
+}
+
+#nev {
+    height: 120px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+
+
+}
+
+.webcreat {
+    display: inline-block;
+    float: left;
+    margin: 20px 0px 0px 70px;
+}
+
+.web {
+    font-size: 45px;
+    font-family: fontbg;
+}
+
+.build {
+    font-family: fontsm;
+
+    float: right;
+    line-height: 4px;
+}
+
+#nev ul {
+
+    float: right;
+    margin-right: 69px;
+}
+
+#nev li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 38px;
+}
+
+#nev a {
+    font-size: 18px;
+    font-family: fontsm;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 9px;
+    color: black;
+}
+
+#nev button {
+    padding: 5px 13px;
+    background-color: white;
+    border: .4px solid gray;
+    border-radius: 5px;
+}
+
+#nev button img {
+    margin-top: 4px;
+    height: 12;
+    width: 17px;
+}
+
+#nev span {
+    margin-bottom: 10px;
+}
+
+
+
+
+/*section 1 css start*/
+
+
+
+
+
+#section1 {
+    margin-top: 112px;
+    height: 415px;
+    position: relative;
+    z-index: 1;
+}
+
+#section1 img {
+
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.compare {
+    font-size: 45px;
+    font-family: fontbg;
+}
+
+.list {
+    font-size: 25px;
+    font-family: fontsm;
+}
+
+
+
+
+/*sectuion 2 css start*/
+
+
+
+
+.clas{
+    margin: 0px 56px;
+    position: absolute;
+    z-index: 10;
+    top: 312px;
+    left: 0px;
+}
+.box-a{
+    height: 100%;
+    width: 63px;
+    border-right: 1px solid gray;
+    display: inline-block;
+    float: left;
+    background-color: white;
+    text-align: center;
+    font-family: fontbg;
+    font-size: 22px;
+    line-height: 120px;
+    color: gray;
+    font-weight: 550;
+}
+.box-8a {
+
+    height: 100%;
+    width: 172px;
+    border-top: 1px solid gray;
+    display: inline-block;
+    float: left;
+    background-color: white;
+    text-align: center;
+
+}
+
+.box-8a button {
+    margin-top: 18%;
+    background-color: #00E676;
+    border-radius: 20px;
+    padding: 9px 40px;
+    border: 0px;
+}
+
+.box-8a a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    font-family: fontbg;
+}
+
+.box-8a button:hover {
+    color: cyan;
+    transform: scale(1.06);
+    transition: 1s;
+}
+
+#section2 {
+    height: 1025px;
+    margin: 0px 57px;
+    position: absolute;
+    z-index: 9;
+    top: 483px;
+    left: 0px;
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+   box-shadow: 0px 0px 15px 20px   #ECECEC;
+}
+
+.container {
+    width: 1400px;
+    height: 113px;
+}
+.container1{
+    width: 1394px;
+    border:4px solid #00E676;
+}
+.from-nev {
+    background-color: #212225;
+    height: 50px;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    font-family: fontsm;
+    font-weight: 600;
+}
+
+.from-nev-1 {
+    display: inline-block;
+    float: left;
+    width: 65px;
+    margin-top: 16px;
+    margin-left: 15px;
+}
+
+.from-nev-2 {
+    display: inline-block;
+    float: left;
+    width: 267px;
+    margin-top: 15px;
+}
+
+.from-nev-3 {
+    display: inline-block;
+    float: left;
+    width: 210px;
+    margin-top: 15px;
+}
+
+.from-nev-4 {
+    display: inline-block;
+    float: left;
+    width: 153px;
+    margin-top: 15px;
+}
+
+.from-nev-5 {
+    display: inline-block;
+    float: left;
+    width: 125px;
+    margin-top: 15px;
+}
+
+.from-nev-6 {
+    display: inline-block;
+    float: left;
+    width: 127px;
+    margin-top: 15px;
+}
+
+.from-nev-7 {
+    display: inline-block;
+    float: left;
+    width: 279px;
+    margin-top: 15px;
+}
+
+.from-nev-8 {
+    display: inline-block;
+    float: left;
+    width: 130px;
+    margin-top: 15px;
+}
+
+.box1 {
+    height: 100%;
+    width: 66px;
+    border-right: 1px solid gray;
+    display: inline-block;
+    float: left;
+    background-color: white;
+    text-align: center;
+    font-family: fontbg;
+    font-size: 22px;
+    line-height: 120px;
+    color: gray;
+    font-weight: 550;
+}
+
+.box2 {
+
+    height: 100%;
+    width: 265px;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    display: inline-block;
+    float: left;
+    background-color: white;
+
+}
+
+.box2 img {
+    height: 100%;
+    width: 100%;
+}
+
+.box3 {
+
+    height: 100%;
+    width: 208px;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    display: inline-block;
+    float: left;
+    background-color: white;
+    font-family: fontsm;
+    line-height: 21px;
+
+}
+
+.account {
+    margin: 20px 15px;
+}
+
+.box3 a {
+    font-family: fontsm;
+    font-weight: 100;
+    color: #00E676;
+
+}
+
+.box4 {
+
+    height: 100%;
+    width: 152.6px;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    display: inline-block;
+    float: left;
+    background-color: white;
+    color: dimgrey;
+
+}
+
+.box5 {
+
+    height: 100%;
+    width: 124px;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    display: inline-block;
+    float: left;
+    background-color: white;
+}
+
+.box5 i {
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.box6 {
+
+    height: 100%;
+    width: 125px;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    display: inline-block;
+    float: left;
+    background-color: white;
+    text-align: center;
+
+}
+
+.number {
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: fontbg;
+}
+
+.box6 a {
+    color: gray;
+    font-family: fontsm;
+}
+
+.box6 a:hover {
+    color: #00E676;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.box7 {
+
+    height: 100%;
+    width: 278px;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    display: inline-block;
+    float: left;
+    background-color: white;
+    font-family:sans-serif;
+}
+
+.advantage {
+    padding: 15px 0px 0px 10px;
+}
+
+.box8 {
+
+    height: 100%;
+    width: 174px;
+    border-top: 1px solid gray;
+    display: inline-block;
+    float: left;
+    background-color: white;
+    text-align: center;
+
+}
+
+.box8 button {
+    margin-top: 18%;
+    background-color: #00E676;
+    border-radius: 20px;
+    padding: 9px 40px;
+    border: 0px;
+}
+
+.box8 a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    font-family: fontbg;
+}
+
+.box8 button:hover {
+    color: cyan;
+    transform: scale(1.06);
+    transition: 1s;
+}
+
+
+
+
+/*SECTION 3 CSS START*/
+
+
+
+
+
+#section3 {
+    width: 100%;
+    background-color: white;
+}
+
+.section3-left {
+    width: 25%;
+    display: inline-block;
+    float: left;
+    margin-left: 70px;
+    margin-top: 40px;
+    position: sticky;
+    top: 120px;
+}
+
+.what a {
+    font-size: 18px;
+    font-family: fontsm;
+    margin-bottom: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.g-line {
+    height: 2.5px;
+    width: 310px;
+    background-color:#00E676;
+    margin-top: 10px;
+}
+
+.how a {
+    font-size: 18px;
+    font-family: fontsm;
+    margin-bottom: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+/*right*/
+.section3-right {
+    display: inline-block;
+    margin-left: 477px;
+    width: 58%;
+    margin-top: -50px;
+}
+
+.section3-right p {
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    line-height: 20px;
+
+}
+
+#wht {
+    font-size: 35px;
+    font-family: fontbg;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.section3-right span{
+    color:#00E676;
+}
+
+
+
+
+
+/*SECTION 4 CSS START*/
+
+
+
+
+
+
+#section4 {
+    background-color:white;
+    height: 500px;
+}
+
+.revei {
+    height: 90px;
+    width: 430px;
+    background-color: white;
+    font-size: 33px;
+    font-weight: 600;
+    font-family: fontbg;
+    display: inline-block;
+    float: left;
+    padding-left: 60px;
+    padding-top: 100px;
+}
+
+.guid {
+    height: 90px;
+    width: 00px;
+    font-size: 33px;
+    font-family: fontbg;
+    font-weight: 600;
+    padding-left: 800px;
+    padding-top: 100px;
+}
+
+.site {
+    margin: 0px 0px 0px 48px;
+}
+
+.visit {
+    height: 197px;
+    width: 192px;
+    border-radius: 10px;
+    display: inline-block;
+    float: left;
+    box-shadow: 1px 1px 9px 25px #ECECEC;
+    margin-left: 33px;
+    text-align: center;
+  
+}
+
+.visit img {
+    display: inline-block;
+    margin-top: 55px;
+    height: 78px;
+    width: 170px;
+    margin-bottom: 50px;
+
+}
+
+.visi {
+    background-color: black;
+    margin-left: 10px;
+    color: white;
+    padding: 7px 45px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.visit-read {
+    margin-top: 20px;
+
+}
+
+.read {
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.read:hover {
+    text-decoration: none;
+    transition: 3s;
+}
+
+.the {
+    margin-left: 70px;
+    height: 240px;
+    width: 675px;
+    display: inline-block;
+    float: left;
+}
+
+.the-text {
+    height: 240px;
+    width: 270px;
+    background-color: #00E676;
+    display: inline-block;
+    float: left;
+}
+
+.the-text a {
+    font-size: 25px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 550;
+
+}
+
+.the-text-a {
+    margin: 30px 45px;
+}
+
+.the-text-learn {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: fontbg;
+}
+
+.the-img {
+    height: 100%;
+    width: 400px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
+
+.the-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.the-img img:hover {
+    transform: scale(1.3);
+    transition: 5s;
+}
+
+
+
+
+/*fooder css start*/
+
+
+.food {
+    padding: 4% 3.4% 0% 3.4%;
+    width: 93.2%;
+    height: 350px;
+    background-color:#212225;
+}
+
+.food a {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.food a:hover {
+    color: gray;
+}
+
+.food p:hover {
+    color: white;
+}
+
+.food a {
+    line-height: 25px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.food p {
+    font-size: 20px;
+    font-family: fontbg;
+    margin: none;
+    padding: 0px;
+    color: white;
+}
+
+.webcreate {
+    width: 17%;
+    display: inline-block;
+    float: left;
+}
+
+.reviews {
+    width: 19%;
+    display: inline-block;
+    float: left
+}
+
+.guides {
+    width: 25%;
+    display: inline-block;
+    float: left
+}
+
+.comparisons {
+    width: 15%;
+    display: inline-block;
+    float: left
+}
+.circle{ position: absolute;
+    height: 65px;
+    width: 65px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 135px;
+    border-radius: 50%;
+    border:1px solid #00E676;
+    text-align: center;
+    overflow: hidden;
+}
+.circle:hover{
+    border: 3px solid #00E676;
+    transition: 1s;
+}
+.circle i{
+    font-size: 50px;
+    margin-top: 5px;
+    color: white;
+    
+}
+.icon {
+    width: 14%;
+    display: inline-block;
+    float: right;
+  position: relative;
+}
+
+.icon-a i{
+    color: white;
+    font-size: 23px;
+    float: right;
+    margin-top: 190px;
+    margin-left: 31px;
+    margin-right: 5px;
+}
+.icon-a i:hover {
+    color: #00E676;
+}
+.fooder-bottom{
+    height: .5px;
+    background-color: gray;
+    width: 100%;
+    display: inline-block;
+    margin:20px 0px;
+}
+.bottom1 {
+    display: inline-block;
+    float: left;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.bottom2 ul {
+    float: right;
+    display: inline-block;
+}
+
+.bottom2 li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.bottom2 a {
+    font-size: 15px;
+    color: gray;
+    font-family: fontsm;
+}
+.bottom2 a:hover {
+    color: white;
+}
